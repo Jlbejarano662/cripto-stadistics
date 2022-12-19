@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/cripto-stadistics/static/css/main.3df4f537.css",
+    "main.js": "/cripto-stadistics/static/js/main.25e5e18a.js",
+    "static/media/logo.png": "/cripto-stadistics/static/media/logo.ef54b7c534270f13aa08.png",
+    "index.html": "/cripto-stadistics/index.html",
+    "main.3df4f537.css.map": "/cripto-stadistics/static/css/main.3df4f537.css.map",
+    "main.25e5e18a.js.map": "/cripto-stadistics/static/js/main.25e5e18a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3df4f537.css",
+    "static/js/main.25e5e18a.js"
+  ]
+}
