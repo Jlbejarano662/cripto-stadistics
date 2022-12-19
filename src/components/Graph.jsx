@@ -56,7 +56,7 @@ export default function Graph({ type = 1, coin = "bitcoin", days = 30, color = "
             const response = await fetch(url)
             //console.log(response)
             const json = await response.json()
-            console.log(json)
+            //console.log(json)
             setPrices(json.prices.map(item => Math.round(item[1])))
             //console.log(prices)
             setDates(json.prices.map(item => moment.unix(item[0]).format("MM-DD")))

@@ -1,0 +1,31 @@
+table {
+    width: 85%;
+    padding: 30px 30px 80px; 
+    color: #655A8C ;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.tbody{
+    text-align: center;
+    color: #655A8C ;
+}
+
+.thead{
+    text-align: center;
+    color: #655A8C ;
+}
+
+th {
+    padding: 20px 0px 20px 0px !important;
+}
+
+.border {
+    border: 2px solid #655A8C;
+    width: 85%;
+    margin: auto;
+    padding: 0;
+    border-radius: 20px;
+    margin: auto auto 3% auto;
+}
+
+

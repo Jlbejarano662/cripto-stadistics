@@ -1,12 +1,12 @@
 import {useEffect, useState} from 'react' 
 import "./App.css"; 
-import Footer from './Footer'
-import Header from './Header'
-import TableCoins from './TableCoins';
-import CardPrincipal from './CardPrincipal';
-import Card from './Card';
-import Conver from './Convert'
-import Convert from './Convert';
+import Footer from './components/Footer'
+import Header from './components/Header'
+import TableCoins from './components/TableCoins';
+import CardPrincipal from './components/CardPrincipal';
+import Card from './components/Card';
+import Conver from './components/Convert'
+import Convert from './components/Convert';
 
 
 export default function App() {
@@ -38,7 +38,7 @@ export default function App() {
       <Header currencys={currency} fun={setSelCur} cur={selCur}/>
       <main>
         <CardPrincipal json={coins[0]} cur={selCur}/>
-        <div className='cards_con'>
+        <div className='cards_con col-6 col-sm-12'>
           {coins.map(({id,symbol, image, current_price,price_change_percentage_30d_in_currency},index) =>{
             if(index !== 0) {
             return <Card 

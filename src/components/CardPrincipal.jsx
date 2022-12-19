@@ -1,5 +1,5 @@
 import './cardPrincipal.css'
-import { deleteDec, colorDec } from './App'
+import { deleteDec, colorDec } from '../App'
 import Graph from "./Graph";
 
 function CardPrincipal({ json: { 

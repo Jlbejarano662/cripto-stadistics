@@ -1,5 +1,5 @@
 
-import { colorDec } from "./App"
+import { colorDec } from "../App"
 import "./Card.css"
 import Graph from "./Graph"
 

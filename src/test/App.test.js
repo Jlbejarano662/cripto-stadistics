@@ -1,4 +1,4 @@
-import {colorDec, deleteDec, numberF} from './App'
+import {colorDec, deleteDec, numberF} from '../App'
 
 describe("Testing function deleteDec", () => {
     test("pass 1.2642325 return 1.26",() => {
